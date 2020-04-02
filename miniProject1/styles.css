@@ -33,7 +33,7 @@ body {
     font-weight: bold;
     color: #cc6868;
     text-shadow: 3px 3px rgb(250, 247, 247), 2px 2px 2px darkgrey;
-    font-family: 
+    font-family: sans-serif;
     /*box-align: center;
    
     height: 100vh;
@@ -241,15 +241,6 @@ body {
 
 @media(max-width: 991px) {
 
-    .header .text {
-        position: absolute;
-        display: flex;
-        float:left; 
-        left: 29%;
-        top: 07%;
-        font-size: 2.8rem;
-    }
-
     .content-wrapper .content .products .box  {
         height: 280px;
     }
@@ -257,9 +248,11 @@ body {
 
 /*if width equal to or less than 767 then*/
 
-@media(max-width: 700px) {
+@media(max-width: 767px) {
     .header .content img {
-        width: 25%;
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
     
     .header .content {
