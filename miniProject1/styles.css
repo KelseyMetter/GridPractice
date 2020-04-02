@@ -258,6 +258,15 @@ body {
 /*if width equal to or less than 767 then*/
 
 @media(max-width: 767px) {
+    .header .content img {
+        width: 25%;
+    }
+    
+    .header .content {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
 
     .header .text {
         position: top center;
