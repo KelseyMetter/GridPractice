@@ -257,7 +257,7 @@ body {
 
 /*if width equal to or less than 767 then*/
 
-@media(max-width: 767px) {
+@media(max-width: 700px) {
     .header .content img {
         width: 25%;
     }
